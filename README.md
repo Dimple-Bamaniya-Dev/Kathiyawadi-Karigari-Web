@@ -30,31 +30,42 @@ The goal of this project is to:
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 Kathiyawadi-Karigari-Web
 │
 ├── src
-│ ├── app
-│ │ ├── components
-│ │ │ ├── navbar
-│ │ │ ├── footer
-│ │ │ └── products
-│ │ │ ├── products.component.ts
-│ │ │ └── products.component.html
-│ │ │
-│ │ ├── app.component.ts
-│ │ ├── app.component.html
-│ │ ├── app.routes.ts
-│ │ └── app.config.ts
-│ │
-│ ├── assets
-│ │ └── images
-│ │ ├── craft-bg.jpg
-│ │ ├── img1.jpg
-│ │ ├── img2.jpg
-│ │ ├── ...
-│ │ └── img12.jpg
-│ │
-│ └── styles.scss
+│   ├── app
+│   │   ├── components
+│   │   │   ├── navbar
+│   │   │   ├── footer
+│   │   │   └── products
+│   │   │       ├── products.component.ts
+│   │   │       └── products.component.html
+│   │   │
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.routes.ts
+│   │   └── app.config.ts
+│   │
+│   ├── assets
+│   │   └── images
+│   │       ├── craft-bg.jpg
+│   │       ├── img1.jpg
+│   │       ├── img2.jpg
+│   │       ├── img3.jpg
+│   │       ├── img4.jpg
+│   │       ├── img5.jpg
+│   │       ├── img6.jpg
+│   │       ├── img7.jpg
+│   │       ├── img8.jpg
+│   │       ├── img9.jpg
+│   │       ├── img10.jpg
+│   │       ├── img11.jpg
+│   │       └── img12.jpg
+│   │
+│   └── styles.scss
 │
 ├── angular.json
 ├── package.json
