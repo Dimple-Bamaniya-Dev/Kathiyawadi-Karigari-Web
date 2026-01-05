@@ -1,0 +1,25 @@
+<div class="container my-5">
+  <h2 class="text-center mb-4">Our Handmade Products</h2>
+
+  <div class="row g-4">
+    <div
+      class="col-sm-6 col-md-4 col-lg-3"
+      *ngFor="let product of products"
+    >
+      <div class="card h-100">
+        <img
+          [src]="product.image"
+          class="card-img-top"
+          [alt]="product.name"
+        />
+
+        <div class="card-body text-center">
+          <h6 class="card-title">{{ product.name }}</h6>
+          <button class="btn btn-outline-primary btn-sm mt-2">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
