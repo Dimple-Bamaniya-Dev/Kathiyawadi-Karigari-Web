@@ -4,6 +4,11 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url('/assets/images/craft-bg.jpg') center/cover no-repeat;
-  color: white;
+    url("/assets/images/craft-bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
